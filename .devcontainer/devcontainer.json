@@ -12,6 +12,9 @@
                 "files.trimFinalNewlines": true,
                 "files.trimTrailingWhitespace": true
             },
+            "[python]": {
+                "editor.defaultFormatter": "ms-python.black-formatter"
+            },
             "extensions": [
                 "ms-python.python",
                 "mhutchie.git-graph",
