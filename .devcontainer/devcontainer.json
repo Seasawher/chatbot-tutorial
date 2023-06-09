@@ -1,0 +1,6 @@
+{
+    "name": "hello-streamlit",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "streamlit",
+    "workspaceFolder": "/usr/src"
+}
