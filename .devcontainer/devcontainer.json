@@ -2,5 +2,28 @@
     "name": "hello-streamlit",
     "dockerComposeFile": "./docker-compose.yml",
     "service": "streamlit",
-    "workspaceFolder": "/usr/src"
+    "workspaceFolder": "/usr/src",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.formatOnSave": true,
+                "editor.insertSpaces": true,
+                "files.eol": "\n",
+                "files.trimFinalNewlines": true,
+                "files.trimTrailingWhitespace": true
+            },
+            "extensions": [
+                "ms-python.python",
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "ms-python.black-formatter",
+                "charliermarsh.ruff",
+                "ms-python.vscode-pylance",
+                "ms-python.isort",
+                "ms-azuretools.vscode-docker",
+                "yzhang.markdown-all-in-one",
+                "ms-python.mypy-type-checker"
+            ]
+        }
+    }
 }
